@@ -100,3 +100,82 @@ body {
   justify-content: space-between;
   margin-top: 28px;
 }
+@media (max-width: 900px) {
+  .card-content {
+    max-width: 780px;
+    width: 780px;
+  }
+  .img-container {
+    margin-top: 5px;
+  }
+  .card {
+    max-width: 280px;
+    height: 180px;
+    background-color: #fff;
+
+    padding: 20px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+      rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  }
+}
+@media (max-width: 760px) {
+  .container {
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    margin: 20px;
+  }
+  .text-content {
+    max-width: 285px;
+    /* width: 500px; */
+    text-align: center;
+  }
+  .sub-heading {
+    font-size: 22px;
+  }
+  .main-heading {
+    font-size: 22px;
+    color: var(--VeryDarkBlue);
+    margin-bottom: 10px;
+  }
+  .main-para {
+    margin-bottom: 70px;
+    font-size: 13.35px;
+    max-width: 392px;
+  }
+  .card-content {
+    max-width: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-1 {
+    margin-right: 0px;
+    margin-bottom: 20px;
+    transform: translateY(0px);
+    border-top: 4px solid var(--Cyan);
+    border-radius: 4px 4px 5px 5px;
+  }
+  .card-2 {
+    margin-bottom: 20px;
+    border-top: 4px solid var(--Red);
+    border-radius: 4px 4px 5px 5px;
+  }
+  .card-3 {
+    border-top: 4px solid var(--Orange);
+    border-radius: 4px 4px 5px 5px;
+    margin-bottom: 20px;
+  }
+  .card-4 {
+    margin-left: 0px;
+    border-top: 4px solid var(--Blue);
+    border-radius: 4px 4px 5px 5px;
+    transform: translateY(0px);
+  }
+  .img-container {
+    margin-top: 12px;
+  }
+}
